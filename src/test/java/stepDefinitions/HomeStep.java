@@ -31,12 +31,13 @@ public class HomeStep {
         homePage.clickOnCartIcon();
     }
 
-    @And("I click on the four products buttons")
+    @And("I click on the some products buttons")
     public void addProductToCart(DataTable data) {
         List<String> productIds = data.transpose().asList(String.class);
         homePage.clickItemProductButton(productIds.get(0));
         homePage.clickItemProductButton(productIds.get(1));
         homePage.clickItemProductButton(productIds.get(2));
         homePage.clickItemProductButton(productIds.get(3));
+        homePage.clickItemProductButton(productIds.get(4));
     }
 }
