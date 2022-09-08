@@ -1,3 +1,4 @@
+//https://www.how2shout.com/linux/oracle-java-ubuntu-22-04/
 package Pages;
 
 import com.microsoft.playwright.Locator;
