@@ -41,9 +41,9 @@ public class HomeStep {
         homePage.clickItemProductButton(productIds.get(4));
     }
 
-    @And("I click select price dropdown")
-    public void clickInSelectOrder() {
-        homePage.clickInSelectOrder();
+    @And("I click select price dropdown with {string}")
+    public void clickInSelectOrder(String option) {
+        homePage.clickInSelectOrder(option);
     }
 
     @Then("I verify correct order")

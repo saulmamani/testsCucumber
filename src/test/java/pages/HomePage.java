@@ -7,6 +7,7 @@ import org.junit.Assert;
 
 import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.Objects;
 
 public class HomePage {
     private Page driver;
@@ -15,6 +16,8 @@ public class HomePage {
     private Locator cartIcon;
 
     private Locator listPriceProducts;
+
+    private String optionSelect;
 
     public HomePage(Page driver) {
         this.driver = driver;
@@ -46,8 +49,9 @@ public class HomePage {
         driver.click("#" + product_id);
     }
 
-    public void clickInSelectOrder() {
-        this.driver.selectOption("select.product_sort_container", "lohi");
+    public void clickInSelectOrder(String option) {
+        this.driver.selectOption("select.product_sort_container", option);
+        this.optionSelect = option;
     }
 
     public void verifyOrderProducts() {
@@ -59,7 +63,13 @@ public class HomePage {
             precios.add(precioProducto);
         }
 
-        boolean isOrder = isSorted(precios);
+        System.out.println(this.optionSelect);
+
+        boolean isOrder;
+        if(Objects.equals(this.optionSelect, "lohi"))
+            isOrder = isSorted(precios);
+        else
+            isOrder = isSortedDesc(precios);
 
         Assert.assertTrue(isOrder);
     }
@@ -74,6 +84,23 @@ public class HomePage {
         while (iter.hasNext()) {
             T t2 = iter.next();
             if (t.compareTo(t2) > 0) {
+                return false;
+            }
+            t = t2;
+        }
+        return true;
+    }
+
+    private static <T extends Comparable<? super T>>
+    boolean isSortedDesc(Iterable<T> iterable) {
+        Iterator<T> iter = iterable.iterator();
+        if (!iter.hasNext()) {
+            return true;
+        }
+        T t = iter.next();
+        while (iter.hasNext()) {
+            T t2 = iter.next();
+            if (t.compareTo(t2) < 0) {
                 return false;
             }
             t = t2;

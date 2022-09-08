@@ -4,14 +4,11 @@ Feature: As a user i want order products
     And I set the password text box with "secret_sauce"
     And I click on the login button
 
-  Scenario: Order products for price
+  Scenario Outline: Order products for price
     When I am in the home page
-    And I click select price dropdown
+    And I click select price dropdown with "<option>"
     Then I verify correct order
-
-    #    Examples:
-#      | tipos de ordenacion                             |
-#      | az     |
-#      | za     |
-#      | lohi   |
-#      | hilo        |
+    Examples:
+      | option |
+      | lohi    |
+      | hilo    |
