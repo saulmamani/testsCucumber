@@ -40,4 +40,14 @@ public class HomeStep {
         homePage.clickItemProductButton(productIds.get(3));
         homePage.clickItemProductButton(productIds.get(4));
     }
+
+    @And("I click select price dropdown")
+    public void clickInSelectOrder() {
+        homePage.clickInSelectOrder();
+    }
+
+    @Then("I verify correct order")
+    public void verifyOrderProducts() {
+        homePage.verifyOrderProducts();
+    }
 }
