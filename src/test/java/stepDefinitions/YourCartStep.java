@@ -17,7 +17,7 @@ public class YourCartStep {
         yourCartPage.clickOnCheckoutButton();
     }
 
-    @Then("I should be {string} products in the cart")
+    @Then("I should have {string} products in the cart")
     public void verifyFourProductsCart(String cantidad) {
         yourCartPage.verifyFourProductsCart(cantidad);
     }

@@ -10,5 +10,10 @@ public class OverviewStep {
     public void clickOnFinishButton(){
         overviewPage.clickOnFinishButton();
     }
+
+    @And("I verify that the sum is the correct")
+    public void verifyCorrectSum() {
+        overviewPage.verifyCorrectSum();
+    }
 }
 
