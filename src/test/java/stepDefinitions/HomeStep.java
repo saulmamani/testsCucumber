@@ -50,4 +50,8 @@ public class HomeStep {
     public void verifyOrderProducts() {
         homePage.verifyOrderProducts();
     }
+
+    @Then("I verify correct name order")
+    public void verifyOrderNameProducts() {
+    }
 }

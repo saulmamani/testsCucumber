@@ -16,6 +16,7 @@ public class HomePage {
     private Locator cartIcon;
 
     private Locator listPriceProducts;
+    private Locator listNameProducts;
 
     private String optionSelect;
 
@@ -26,6 +27,7 @@ public class HomePage {
 
         this.cartIcon = driver.locator("a.shopping_cart_link");
         this.listPriceProducts = driver.locator(".inventory_item_price");
+        this.listNameProducts = driver.locator(".inventory_item_name");
     }
 
     public void verifyHomePageHeaderIsDisplayed() {
@@ -70,6 +72,22 @@ public class HomePage {
             isOrder = isSorted(precios);
         else
             isOrder = isSortedDesc(precios);
+
+        Assert.assertTrue(isOrder);
+    }
+
+    public void verifyOrderNameProducts() {
+        var lista = this.listNameProducts.allInnerTexts();
+
+        ArrayList<String> names = new ArrayList<String>(lista);
+
+        System.out.println(this.optionSelect);
+
+        boolean isOrder;
+        if(Objects.equals(this.optionSelect, "az"))
+            isOrder = isSorted(names);
+        else
+            isOrder = isSortedDesc(names);
 
         Assert.assertTrue(isOrder);
     }

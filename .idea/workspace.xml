@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="020a675b-d43f-48b6-a666-0064c8250407" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/resources/HomeTaskProductName.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/HomeStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/HomeStep.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/DriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/DriverManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/HomeTask.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/HomeTask.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,25 +36,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/saul/Documentos/Maestria/Modulo_11-TestAutomation/pruebas_automatizadas/testsCucumber&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.tools&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "/home/saul/Documentos/Maestria/Modulo_11-TestAutomation/pruebas_automatizadas/testsCucumber/src/test/resources",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "configurable.group.tools"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: Order products for price">
+  <component name="RunManager" selected="Cucumber Java.Scenario: Order products for name">
     <configuration name="Scenario: Add four product to the cart" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/CartTask.feature" />
@@ -116,15 +115,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Order products descending for price" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Order products for name" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/HomeTask.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/HomeTaskProductName.feature" />
       <option name="GLUE" value="stepDefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="testsCucumber" />
-      <option name="NAME_FILTER" value="^Order products descending for price$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Order products descending for price$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Order products descending for price" />
+      <option name="NAME_FILTER" value="^Order products for name$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Order products for name$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Order products for name" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -158,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: Order products for name" />
         <item itemvalue="Cucumber Java.Scenario: Order products for price" />
         <item itemvalue="Cucumber Java.Scenario: Add four product to the cart" />
         <item itemvalue="Cucumber Java.Scenario: Check the sum of the products in the cart" />
         <item itemvalue="Cucumber Java.Scenario: Delete two product and verify in the cart" />
-        <item itemvalue="Cucumber Java.Scenario: Order products descending for price" />
       </list>
     </recent_temporary>
   </component>
