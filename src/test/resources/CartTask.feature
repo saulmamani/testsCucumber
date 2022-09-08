@@ -23,9 +23,3 @@ Feature: As a user i want to add several products to the cart to be able to dele
       | Saul | Mamani | 76137269 |
     And I click on continue button
     And I verify that the sum is the correct
-
-#    Examples:
-#      | cantidades                             |
-#      | 2     |
-#      | 3    |
-#      | 4        |
