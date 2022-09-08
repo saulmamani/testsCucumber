@@ -1,10 +1,14 @@
 package stepDefinitions;
 
 
+import io.cucumber.datatable.DataTable;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
 import pages.YourCartPage;
 import utilities.DriverManager;
+
+import java.util.List;
 
 public class YourCartStep {
     YourCartPage yourCartPage = new YourCartPage(DriverManager.getInstance().getDriver());
@@ -13,8 +17,15 @@ public class YourCartStep {
         yourCartPage.clickOnCheckoutButton();
     }
 
-    @Then("I should be four products in the cart")
-    public void verifyFourProductsCart() {
-        yourCartPage.verifyFourProductsCart();
+    @Then("I should be {string} products in the cart")
+    public void verifyFourProductsCart(String cantidad) {
+        yourCartPage.verifyFourProductsCart(cantidad);
+    }
+
+    @When("I click on two remove products buttons")
+    public void clickOnRemoveProduct(DataTable data) {
+        List<String> productIds = data.transpose().asList(String.class);
+        yourCartPage.clickRemoveProductButton(productIds.get(0));
+        yourCartPage.clickRemoveProductButton(productIds.get(1));
     }
 }

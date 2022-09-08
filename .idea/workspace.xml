@@ -5,14 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="020a675b-d43f-48b6-a666-0064c8250407" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/resources/CartTask.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pages/YourCartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/YourCartPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/HomeStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/HomeStep.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/YourCartStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/YourCartStep.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/DriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/DriverManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/Home.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Home.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/CartTask.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/CartTask.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +48,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.tools&quot;
   }
 }</component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: Add four product to the cart">
+  <component name="RunManager" selected="Cucumber Java.Scenario: Delete two product and verify to the cart">
     <configuration name="Scenario: Add four product to the cart" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/CartTask.feature" />
@@ -73,15 +69,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Login into Sauce Demo page with invalid credentials" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Delete two product and verify to the cart" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Login.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/CartTask.feature" />
       <option name="GLUE" value="stepDefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="ProyectoCucumber" />
-      <option name="NAME_FILTER" value="^Login into Sauce Demo page with invalid credentials$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Login into Sauce Demo page with invalid credentials$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Login into Sauce Demo page with invalid credentials" />
+      <module name="testsCucumber" />
+      <option name="NAME_FILTER" value="^Delete two product and verify to the cart$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Delete two product and verify to the cart$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Delete two product and verify to the cart" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -155,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: Delete two product and verify to the cart" />
         <item itemvalue="Cucumber Java.Scenario: Add four product to the cart" />
         <item itemvalue="Cucumber Java.Scenario: Products are available in the home page" />
         <item itemvalue="Cucumber Java.Scenario: Login into Sauce Demo page with valid credentials (1)" />
         <item itemvalue="Cucumber Java.Scenario: Login into Sauce Demo page with valid credentials" />
-        <item itemvalue="Cucumber Java.Scenario: Login into Sauce Demo page with invalid credentials" />
       </list>
     </recent_temporary>
   </component>

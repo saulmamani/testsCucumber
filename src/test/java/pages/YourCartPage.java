@@ -19,10 +19,14 @@ public class YourCartPage {
         checkoutButton.click();
     }
 
-    public void verifyFourProductsCart(){
-        int cantProducts = 4;
+    public void verifyFourProductsCart(String cantidad){
+        int cantProducts = Integer.parseInt(cantidad);
         int cantInCart = this.listPrices.count();
         System.out.println(cantInCart);
         Assert.assertEquals(cantInCart, cantProducts);
+    }
+
+    public void clickRemoveProductButton(String product_id) {
+        driver.click("#" + product_id);
     }
 }
