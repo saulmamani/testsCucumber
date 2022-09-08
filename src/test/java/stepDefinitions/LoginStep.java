@@ -2,10 +2,10 @@ package stepDefinitions;
 
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import Pages.LoginPage;
+import pages.LoginPage;
 import utilities.DriverManager;
 
-public class LoginSteps {
+public class LoginStep {
     private final LoginPage loginPage = new LoginPage(DriverManager.getInstance().getDriver());
 
 //    @When("I set the user name text box with {string}")
