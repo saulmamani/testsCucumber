@@ -5,23 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="020a675b-d43f-48b6-a666-0064c8250407" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/CheckoutCompletePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/OverviewPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/YourCartPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/YourInformationPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/CheckoutCompleteStep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/HomeStep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/OverviewStep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/YourCartStep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/YourInformationStep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Checkout.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Home.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/CartTask.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/HomeSteps.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/Hook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/LoginStep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/YourCartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/YourCartPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/HomeStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/HomeStep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/YourCartStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/YourCartStep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/DriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/DriverManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/Home.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Home.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +52,27 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.tools&quot;
   }
 }</component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: Login into Sauce Demo page with valid credentials (1)">
+  <component name="RunManager" selected="Cucumber Java.Scenario: Add four product to the cart">
+    <configuration name="Scenario: Add four product to the cart" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/CartTask.feature" />
+      <option name="GLUE" value="stepDefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="testsCucumber" />
+      <option name="NAME_FILTER" value="^Add four product to the cart$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Add four product to the cart$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Add four product to the cart" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Scenario: Login into Sauce Demo page with invalid credentials" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Login.feature" />
@@ -122,8 +133,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Scenario: Products are available in the home page" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Home.feature" />
+      <option name="GLUE" value="stepDefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="testsCucumber" />
+      <option name="NAME_FILTER" value="^Products are available in the home page$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Products are available in the home page$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Products are available in the home page" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: Add four product to the cart" />
+        <item itemvalue="Cucumber Java.Scenario: Products are available in the home page" />
         <item itemvalue="Cucumber Java.Scenario: Login into Sauce Demo page with valid credentials (1)" />
         <item itemvalue="Cucumber Java.Scenario: Login into Sauce Demo page with valid credentials" />
         <item itemvalue="Cucumber Java.Scenario: Login into Sauce Demo page with invalid credentials" />
