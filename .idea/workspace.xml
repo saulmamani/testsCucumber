@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="020a675b-d43f-48b6-a666-0064c8250407" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/resources/CartTask.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/CartTask.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/HomeStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/HomeStep.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +52,7 @@
       <recent name="$PROJECT_DIR$/src/test/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: Order products for name">
+  <component name="RunManager" selected="Cucumber Java.Scenario: Check the sum of the products in the cart">
     <configuration name="Scenario: Add four product to the cart" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/CartTask.feature" />
@@ -154,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Scenario: Order products for name" />
-        <item itemvalue="Cucumber Java.Scenario: Order products for price" />
-        <item itemvalue="Cucumber Java.Scenario: Add four product to the cart" />
         <item itemvalue="Cucumber Java.Scenario: Check the sum of the products in the cart" />
         <item itemvalue="Cucumber Java.Scenario: Delete two product and verify in the cart" />
+        <item itemvalue="Cucumber Java.Scenario: Add four product to the cart" />
+        <item itemvalue="Cucumber Java.Scenario: Order products for name" />
+        <item itemvalue="Cucumber Java.Scenario: Order products for price" />
       </list>
     </recent_temporary>
   </component>

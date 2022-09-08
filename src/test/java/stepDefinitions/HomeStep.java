@@ -53,5 +53,6 @@ public class HomeStep {
 
     @Then("I verify correct name order")
     public void verifyOrderNameProducts() {
+        homePage.verifyOrderNameProducts();
     }
 }
