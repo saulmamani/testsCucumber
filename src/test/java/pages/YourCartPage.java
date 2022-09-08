@@ -19,7 +19,7 @@ public class YourCartPage {
         checkoutButton.click();
     }
 
-    public void verifyFourProductsCart(String cantidad){
+    public void verifyQuantiyProductsCart(String cantidad){
         int cantProducts = Integer.parseInt(cantidad);
         int cantInCart = this.listPrices.count();
         System.out.println(cantInCart);

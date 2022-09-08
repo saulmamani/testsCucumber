@@ -18,8 +18,8 @@ public class YourCartStep {
     }
 
     @Then("I should have {string} products in the cart")
-    public void verifyFourProductsCart(String cantidad) {
-        yourCartPage.verifyFourProductsCart(cantidad);
+    public void verifyQuantiyProductsCart(String cantidad) {
+        yourCartPage.verifyQuantiyProductsCart(cantidad);
     }
 
     @When("I click on two remove products buttons")
