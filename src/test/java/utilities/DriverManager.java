@@ -9,7 +9,7 @@ public class DriverManager {
 
     private DriverManager(){
         Playwright playwright = Playwright.create();
-        Page page = playwright.chromium().launch(new BrowserType.LaunchOptions().setHeadless(false).setSlowMo(150)).newPage();
+        Page page = playwright.chromium().launch(new BrowserType.LaunchOptions().setHeadless(false).setSlowMo(50)).newPage();
         page.setViewportSize(1920, 1080);
         this.driver=page;
     }
